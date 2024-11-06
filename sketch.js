@@ -243,7 +243,6 @@ function drawAllBuildings(){
   // Red building expansion and gradient
   drawBuildings(520,420,36 * -LOexpandRed,33.5,color(175,57,43, Alpha));
   drawBuildings(83,430,47.6,39,color(225, 201, 41));
-  
 
   drawBuildings(0,485,36,14,color(225, 201, 41));
   drawBuildings(18,485,14,14,color(175,57,43));
