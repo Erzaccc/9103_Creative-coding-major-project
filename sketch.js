@@ -249,7 +249,6 @@ function drawAllBuildings(){
 
   drawBuildings(249,528,36,22,color(175,57,43));
 
-
    // Use Perlin noise to dynamically resize grey buildings
   let grayBuildingWidth1 = map(noise(frameCount * 0.03 + 100), 0, 1, 20, 100);  // Width of The grey building above
   let grayBuildingHeight1 = map(noise(frameCount * 0.02 + 1000), 0, 1, 10, 60); // Heighth of The grey building above
