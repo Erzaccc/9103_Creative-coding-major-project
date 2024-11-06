@@ -117,7 +117,7 @@ class Block {
 // Function to draw all blocks
 // This technique is from https://p5js.org/reference/p5/draw/
 function drawAllBlocks() {
-  let t = frameCount * 0.02;
+  
   
   // Draw red blocks
   for (let redBlock of redBlocks) {
